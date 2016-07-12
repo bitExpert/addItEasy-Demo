@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "bitexpert/additeasy",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bitExpert/addItEasy.git",
-                "reference": "c13e51eccb63714ebef3d6d6c4e1d34e5b810ad1"
+                "reference": "a98b9fca9dd6e2e21e38ebe8d1e73713243b2d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bitExpert/addItEasy/zipball/c13e51eccb63714ebef3d6d6c4e1d34e5b810ad1",
-                "reference": "c13e51eccb63714ebef3d6d6c4e1d34e5b810ad1",
+                "url": "https://api.github.com/repos/bitExpert/addItEasy/zipball/a98b9fca9dd6e2e21e38ebe8d1e73713243b2d42",
+                "reference": "a98b9fca9dd6e2e21e38ebe8d1e73713243b2d42",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 }
             ],
             "description": "PSR-7 compatible flat-file CMS",
-            "time": "2016-07-11 19:36:08"
+            "time": "2016-07-12 08:03:15"
         },
         {
             "name": "bitexpert/adrenaline",
