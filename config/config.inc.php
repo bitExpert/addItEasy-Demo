@@ -14,4 +14,5 @@ $EASY_CONF["app"]["defaultpage"] = "";
 
 // Site configuration (these variables will get passed to the twig template)
 $EASY_CONF["site"][] = "";
-$EASY_CONF["site"]["title"] = "addITeasy";
+$EASY_CONF["site"]["title"] = "addITeasy Demosite";
+$EASY_CONF["site"]["baseurl"] = "http://localhost:8080/";
