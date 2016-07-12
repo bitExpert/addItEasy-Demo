@@ -1,0 +1,40 @@
+{% extends "default.twig" %}
+
+{% block pageheader %}
+    <header class="intro-header" style="background-image: url('assets/img/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>addITeasy Blog</h1>
+                        <hr class="small">
+                        <span class="subheading">This is an addITeasy powered blog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock pageheader %}
+
+{% block maincontent %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% for post in children('posts') %}
+            <div class="post-preview">
+                <a href="{{ post.getName() }}">
+                    <h2 class="post-title">
+                        {{ pageblock(post, 'title') }}
+                    </h2>
+                    <h3 class="post-subtitle">
+                        {{ pageblock(post, 'subtitle') }}
+                    </h3>
+                </a>
+                <p class="post-meta">Posted on September 24, 2014</p>
+            </div>
+            <hr>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock maincontent %}
