@@ -10,7 +10,7 @@ $EASY_CONF["app"]["logfile"] = $EASY_CONF["app"]["cachedir"] . "/addITeasy.log";
 $EASY_CONF["app"]["datadir"] = __DIR__ . "/../content";
 $EASY_CONF["app"]["templatedir"] = __DIR__ . "/../template/";
 $EASY_CONF["app"]["exportdir"] = __DIR__ . "/../export";
-$EASY_CONF["app"]["defaultpage"] = "";
+$EASY_CONF["app"]["defaultpage"] = "home";
 
 // Site configuration (these variables will get passed to the twig template)
 $EASY_CONF["site"][] = "";
